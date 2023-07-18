@@ -1,0 +1,113 @@
+/* Defaults */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Genral styles */
+
+.main-nav, .nav-links, .user-form{
+    display: flex;
+}
+
+.main-nav , .main-section, .drinks-card{
+    padding: 2rem 3rem;
+}
+
+
+/* Nav */
+.main-nav{
+    margin-bottom: 5vh;
+    background: rgb(219, 96, 51);
+    color: white;
+    align-items: baseline;
+}
+
+.main-nav, .nav-links{
+    justify-content: space-between;
+}
+
+.nav-links li {
+    padding: 0 2rem;
+}
+
+.nav-links li a{
+    color: inherit;
+    padding: 0.5rem;
+}
+
+.nav-links li a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+/* main */
+.main-section{
+    text-align: center;
+    margin: o auto;
+}
+
+.hero-text h1{
+    padding: 1rem 0;
+    font-size: 3rem;
+}
+
+.hero-text p{
+    font-size: 1.5rem;
+    /* margin-top: 0.5rem; */
+}
+
+.user-form{
+    padding: 3rem ;
+    justify-content: center;
+}
+
+.user-form input{
+    max-width: 40vw;
+}
+
+.user-form input, .user-form button{
+    padding: 0.25rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+
+/* Media */
+
+@media screen and (max-width: 800px) {
+    .main-nav{
+        margin-bottom: 3vh;
+    }
+
+    .nav-links > .hide {
+        display: none;
+    }
+
+    .hero-text h1{
+        padding: 0.5rem 0;
+        font-size: 2rem;
+    }
+
+    .hero-text p{
+        font-size: 1.2rem;
+    }
+
+    .user-form input, .user-form button{
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+}
