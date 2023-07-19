@@ -10,7 +10,7 @@
 <body>
 
     <!-- Main  Nav -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg mb-5">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg mb-4">
         <div class="container">
           <a class="navbar-brand" href="#">Murf Cocktails 🍹</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,28 +26,24 @@
         </div>
       </nav>
 
-
-    <!-- <main class="main-section">
-        <div class="hero-text">
-            <h1>Welcome to Cocktailpedia</h1>
-            <p>Find all the information you need to make your favorite cocktail</p>
+      <main class="container text-center">
+        <div class="row">
+            <h1 class="fw-bold lh-md mb-3">Welcome to Murf's Cocktail</h1>
+            <p class="lh-md">Find all the information you need to make your favorite cocktail</p>
         </div>
-
-        <div class="wrapper">
-            <form action="#" class="user-form">
-                <div>
-                    <input type="text" placeholder="Search cocktail" class="user-input">
-                </div>
-
-                <button class="submit-btn">Search</button>
+        <!-- User Input Form -->
+        <div class="row text-center">
+            <form action="#" class="user-form py-3">
+                <input class="form-control user-input" type="text" placeholder="Search Cocktail" aria-label="default input example">
+                <button type="button" class="btn btn-secondary submit-btn">Submit</button>
             </form>
         </div>
-
-        <div class="drinks-card">
-            
+        <!-- Drinks conatiner -->
+        <div class="container drinks-card d-flex">
+            <!-- <a href="${drink.strVideo}" class="btn btn-secondary">Watch Tutorial</a> -->
         </div>
-    </main> -->
-    
+      </main>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="./src/main.js"></script>

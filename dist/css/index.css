@@ -1,1 +1,1 @@
-/*# sourceMappingURL=index.css.map */
+.user-form{display:flex;justify-content:center;align-items:center}.user-form .user-input{max-width:50%;font-size:1rem}@media screen and (min-width: 800px){.user-form .user-input{width:30%}}.drinks-card{display:flex;justify-content:space-between;flex-wrap:wrap}.drinks-card .drink{margin:0 auto;text-align:center;padding:.5rem 0;margin-top:1rem}.drinks-card .drink img{max-width:60%;margin:0 auto;margin-top:1rem}/*# sourceMappingURL=index.css.map */
