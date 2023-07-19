@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Cocktailpedia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/css/index.css">
+    <title>Murf Cocktails</title>
 </head>
 <body>
-   
-    
-        <nav class="main-nav">
-            <h1>Cocktailpedia</h1>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li class="hide"><a href="#">News letter</a></li>
-            </ul>
-        </nav>
-    
 
-    <main class="main-section">
+    <!-- Main  Nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg mb-5">
+        <div class="container">
+          <a class="navbar-brand" href="#">Murf Cocktails 🍹</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav main-nav__links">
+              <a class="nav-link active px-5" aria-current="page" href="#">Home</a>
+              <a class="nav-link active px-5" href="#">Features</a>
+              <a class="nav-link active px-5" href="#">News</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- <main class="main-section">
         <div class="hero-text">
             <h1>Welcome to Cocktailpedia</h1>
             <p>Find all the information you need to make your favorite cocktail</p>
@@ -38,9 +46,10 @@
         <div class="drinks-card">
             
         </div>
-    </main>
+    </main> -->
     
 
-    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./src/main.js"></script>
 </body>
 </html>
